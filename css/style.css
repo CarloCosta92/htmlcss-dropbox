@@ -29,6 +29,27 @@ img {
     color: #ffffff;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+.cerchio-bordato{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #000000;
+    background-color: white;
+    border: 5px solid blue;
+}
+
+.cerchio-vuoto{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        color: #000000;
+        background-color: white;
+}
+
 
 /* header */
 
@@ -83,7 +104,7 @@ header a:hover{
     justify-content: center;
     /* background-color: chocolate; */
     /* height: 200px; */
-    font-size: 48px;
+    font-size: 54px;
 }
 
 .colonne{
@@ -136,10 +157,11 @@ header a:hover{
  .riga2,
  .riga3{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: chocolate; 
-    height: 200px; 
+    /* height: 200px;  */
     gap: 20px;
+    padding: 60px 0;
  }
  
  .colonne-abb{
