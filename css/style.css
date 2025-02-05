@@ -49,3 +49,35 @@ header a:hover{
     align-self: center;
     padding: 5px 0;
 }
+
+/* main */
+
+.jumbotron {
+    background-color: #b4d0e6;
+    margin: 0 auto;
+}
+
+.container-jumbo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rigaH1{
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    height: 200px;
+}
+
+.colonne{
+    display: flex;
+    gap: 20px;
+}
+
+.colonna{
+    height: 200px;
+    background-color: indigo;
+    flex: 1;
+    text-align: center;
+}
