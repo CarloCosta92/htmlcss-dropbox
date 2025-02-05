@@ -120,12 +120,11 @@ header a:hover{
     gap: 20px;
 }
 
-.colonna{
+/* .colonna{
     /* height: 200px;
     background-color: indigo; */
+     */
     
-    
-}
  #jumbo {
     /* width: 780px; */
     width: 100%;
@@ -206,6 +205,7 @@ header a:hover{
 
 .spec li{
      display: flex; 
+     padding-bottom: 15px;
 }
 
 .spec i{
@@ -222,6 +222,7 @@ header a:hover{
 
 .salienti li{
     display: flex;
+    padding-bottom: 15px;
 }
 
 .salienti ul{
