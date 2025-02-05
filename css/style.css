@@ -53,6 +53,12 @@ ul{
     list-style: none;
 }
 
+#oppure {
+    padding-bottom: 40px;
+    border-bottom: 2px solid grey;
+
+}
+
 /* header */
 
 .header-container {
@@ -172,7 +178,7 @@ header a:hover{
  }
 
  .colonna-abb{
-    height: 500px;
+    height: 1000px;
     background-color: yellow;
     flex: 1;
  }
@@ -194,11 +200,31 @@ header a:hover{
     font-weight: lighter;
 }
 
+.spec{
+    padding: 50px 0;
+}
+
 .spec li{
-    display: flex;   
+     display: flex; 
 }
 
 .spec i{
     margin-right: 5px;
+}
+
+.buy{
+    padding: 40px 0;
+}
+
+.salienti {
+    padding: 40px 0 30px 0 ;
+}
+
+.salienti li{
+    display: flex;
+}
+
+.salienti ul{
+    padding-top: 40px;
 }
 
