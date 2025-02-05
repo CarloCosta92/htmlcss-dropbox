@@ -149,7 +149,7 @@ header a:hover{
  /* prima sezione */
 
  .abbonamento{
-    background-color: red;
+    /* background-color: red; */
     margin: 0 auto;
  }
 
@@ -165,21 +165,24 @@ header a:hover{
  .riga2{
     display: flex;
     justify-content: flex-start;
-    background-color: chocolate; 
+    /* background-color: chocolate;  */
     /* height: 200px;  */
     gap: 20px;
-    padding: 60px 0;
+    padding: 60px 30px;
+    border: 1px solid #d0cfd4;
  }
  
  .colonne-abb{
     display: flex;
     gap: 20px;
+    
  }
 
  .colonna-abb{
-    height: 1000px;
-    background-color: yellow;
+    /* height: 1000px; */
+    /* background-color: yellow; */
     flex: 1;
+    border: 1px solid #d0cfd4;
  }
 
  .offer-type{
@@ -233,14 +236,16 @@ header a:hover{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 400px;
+    /* height: 400px; */
     background-color: #ffffff;  
+    border: 1px solid #d0cfd4;
 }
 
 .enterprise-box{
     display: flex;
     justify-content: space-between;
     padding: 40px 40px;
+    
 }
 
 #enterprise {
