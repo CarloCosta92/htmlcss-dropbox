@@ -17,8 +17,7 @@
 
 img {
     display: inline-block;
-    vertical-align: middle;
-    
+    vertical-align: middle;  
 }
 
 /* common */
@@ -50,6 +49,9 @@ h2 {
         background-color: white;
 }
 
+ul{
+    list-style: none;
+}
 
 /* header */
 
@@ -175,4 +177,20 @@ header a:hover{
     flex: 1;
  }
 
+ .offer-type{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #d0cfd4;
+ }
+
+ .offer-details{
+    padding: 36px 30px;
+ }
+
+ .version{
+    line-height: 30px;
+ }
+.cadenza{
+    font-weight: lighter;
+}
 
