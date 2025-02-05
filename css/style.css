@@ -194,3 +194,11 @@ header a:hover{
     font-weight: lighter;
 }
 
+.spec li{
+    display: flex;   
+}
+
+.spec i{
+    margin-right: 5px;
+}
+
