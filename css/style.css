@@ -81,7 +81,7 @@ ul{
     padding: 40px 20px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #999999;
     
 }
 
@@ -154,7 +154,7 @@ header a:hover{
  }
 
  .arrow-down {
-    margin-top: 40px;
+    margin-top: 85px;
     font-size: 50px;
  }
 
