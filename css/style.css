@@ -54,7 +54,7 @@ ul{
     list-style: none;
 }
 
-#oppure {
+.oppure {
     padding-bottom: 40px;
     border-bottom: 2px solid grey;
 
@@ -325,4 +325,15 @@ header a:hover{
 .card-container h3,
 .card-container p{
     padding: 20px 0;
+}
+
+/* quarta sezione */
+.claim{
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding-top: 100px; 
+}
+.claim a{
+    display: inline-block;
+    padding-top: 50px;
 }
