@@ -278,15 +278,10 @@ header a:hover{
     /* padding: 100px 350px 0px; */
     padding-top: 100px;
 }
-
-
-
-
 .info-partner{
     line-height: 30px;
     padding: 100px 30px;
     align-self: center;
-
 }
 
 .info-partner p{
@@ -295,5 +290,39 @@ header a:hover{
 
 #partner{
     max-width: 600px;
+}
 
+/*terza sezione */
+
+.drop-business {
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding-top: 100px; 
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.card-container div{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    max-width: calc((1000px - 40px)/3);
+}
+
+
+.img-business{
+    max-width: calc((1000px - 40px)/3);
+}
+
+.card-container h3,
+.card-container p{
+    padding: 20px 0;
 }
