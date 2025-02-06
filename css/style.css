@@ -39,8 +39,7 @@ body{
     transition: background-color 0.3s, transform 0.3s;
     background-color: #0056b3;
     transform: scale(1.1);
-    filter: brightness(1.4);
-    
+    filter: brightness(1.4);   
 }
 
 h2 {
@@ -57,11 +56,11 @@ h2 {
 }
 
 .cerchio-vuoto{
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        color: #000000;
-        background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #000000;
+    background-color: white;
 }
 
 ul{
@@ -73,6 +72,17 @@ ul{
     border-bottom: 2px solid grey;
 
 }
+
+i.fa-solid.fa-check{
+    color: #0061fe;
+    
+}
+
+i.fa-solid{
+    margin-right: 5px;
+}
+
+
 
 /* header */
 
@@ -88,14 +98,11 @@ ul{
 header a{
     text-decoration: none;
     color: #000000;
-    padding: 10px 20px;
-    
-    
+    padding: 10px 20px;  
 }
 
 header a:hover{
-    border-bottom: 2px solid grey;
-    
+    border-bottom: 2px solid grey;    
     transition: 0.7s;
 }
 
@@ -112,7 +119,6 @@ header a:hover{
 .jumbotron {
     background-color: #b4d0e6;
     margin: 0 auto;
-
 }
 
 .container-jumbo{
@@ -191,8 +197,7 @@ header a:hover{
  
  .colonne-abb{
     display: flex;
-    gap: 20px;
-    
+    gap: 20px;   
  }
 
  .colonna-abb{
@@ -261,8 +266,7 @@ header a:hover{
 .enterprise-box{
     display: flex;
     justify-content: space-between;
-    padding: 40px 40px;
-    
+    padding: 40px 40px;   
 }
 
 .enterprise-left{
@@ -285,7 +289,7 @@ header a:hover{
     background-color: #ffffff;
     color: #000000;
     border: 1px solid black;
-    }
+}
 
 /* seconda sezione */
 
@@ -389,8 +393,7 @@ footer{
 
 .footer-down{
     max-width: 1000px;
-    margin: 0 auto; 
-    
+    margin: 0 auto;   
 }
 
 .language{
