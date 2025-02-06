@@ -379,4 +379,25 @@ footer{
     justify-content: space-between;
 }
 
+.footer-up h3{
+    padding-bottom: 40px;
+}
+
+.footer-up li{
+    line-height: 40px;
+}
+
+.footer-down{
+    max-width: 1000px;
+    margin: 0 auto; 
+    
+}
+
+.language{
+    width: 120px;
+    padding: 20px 0;
+    border-top: 1px solid #999999;
+    color: #999999;
+}
+
 
